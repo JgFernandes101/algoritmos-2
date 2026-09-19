@@ -1,0 +1,20 @@
+funcao ExisteRaizReal (ref x1, x1: real; a, b, c: real):logico
+var
+    delta: real
+inicio
+    se a < 0 entao
+        se b < 0 entao
+            retorne FALSO
+        fim se
+        x1 <- -c/b
+        x2 <- x1
+    fim se
+    delta <- (b*b)-4*a*c
+    se delta < 0 entao
+        retorne FALSO
+    senao
+        x1 <- (-b + raizq(delta))/2*a
+        x2 <- (-b - raizq(delta))/2*a
+    fim se
+    retorne VERDADEIRO
+fim funcao
