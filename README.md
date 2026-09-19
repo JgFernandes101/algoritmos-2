@@ -1,1 +1,1 @@
-Minha evolução na disciplina de Algoritmos 2 realizada no curso de Ciência da Computação da Universidade Federal do Mato Grosso
+Minha evolução na disciplina de Algoritmos 2 realizada no curso de Ciência da Computação da Universidade Federal do Mato Grosso. Os exercícios serão feitos em uma linguagem própria do docente (coloquialmente chamada de Zezinhol).
