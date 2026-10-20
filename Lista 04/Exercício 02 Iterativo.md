@@ -1,7 +1,7 @@
 tipos
     PNo = ponteiro para TNo
     TNo = registro
-            dado: inteiro
+            dado: reais
             prox: PNo
     fim registro
 
