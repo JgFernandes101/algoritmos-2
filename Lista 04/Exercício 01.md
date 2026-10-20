@@ -1,9 +1,9 @@
 tipos
     PNo = ponteiro para TNo
     TNo = registro
-            n: inteiro
+            dado: string
             prox: PNo
-        fim registro
+    fim registro
 
 função ListaEstáVazia (lista: PNo): lógico
 início
