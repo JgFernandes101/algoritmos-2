@@ -1,10 +1,10 @@
 tipos
     PNo = ponteiro para TNo
     TNo = registro
-            dado: reais
+            dado: real
             prox: PNo
     fim registro
-
+    
 função TamanhoLista (lista: PNo): inteiro
 var
     contador: inteiro
