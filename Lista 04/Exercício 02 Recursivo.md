@@ -1,7 +1,7 @@
 tipos
     PNo = ponteiro para TNo
     TNo = registro
-            dado: string
+            dado: reais
             prox: PNo
     fim registro
 
