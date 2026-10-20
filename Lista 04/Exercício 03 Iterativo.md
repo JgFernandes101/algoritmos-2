@@ -1,9 +1,9 @@
 tipos
-    TNo = registro
-            dado: real
-            prox: ponteiro para TNo
-        fim registro
     PNo = ponteiro para TNo
+    TNo = registro
+            dado: reais
+            prox: PNo
+    fim registro
 
 função EstáEmLista (x: real; lista: PNo): lógico
 início
