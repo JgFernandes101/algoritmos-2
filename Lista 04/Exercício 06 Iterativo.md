@@ -1,9 +1,9 @@
 tipos
+    PNo = ponteiro para TNo
     TNo = registro
             dado: string
-            prox: ponteiro para TNo
+            prox: PNo
     fim registro
-    PNo = ponteiro para TNo
 
 função StringNaPosiçãoP (p: inteiro; lista: PNo): string
 var
