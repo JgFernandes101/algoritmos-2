@@ -1,9 +1,9 @@
 tipos
+    PNo = ponteiro para TNo
     TNo = registro
             dado: real
-            prox: ponteiro para TNo
+            prox: PNo
     fim registro
-    PNo = ponteiro para TNo
 
 função QuantasVezesXEmLista (x: real; lista: PNo): inteiro
 var
