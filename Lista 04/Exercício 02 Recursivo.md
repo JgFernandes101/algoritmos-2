@@ -1,9 +1,9 @@
 tipos
-    TNo = registro
-            dado: real
-            prox: ponteiro para TNo
-        fim registro
     PNo = ponteiro para TNo
+    TNo = registro
+            dado: string
+            prox: PNo
+    fim registro
 
 função TamanhoLista (lista: PNo): inteiro
 início
