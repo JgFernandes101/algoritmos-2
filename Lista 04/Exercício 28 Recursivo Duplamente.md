@@ -1,4 +1,3 @@
-
 tipos
     PNo = ponteiro para TNo
     TNo = registro
