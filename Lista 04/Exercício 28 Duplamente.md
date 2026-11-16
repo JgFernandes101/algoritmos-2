@@ -3,7 +3,8 @@ tipos
     PNo = ponteiro para TNo
     TNo = registro
         dado: string
-        ant, prox: PNo
+        prox: PNo
+        ant: PNo
     fim registro
 
 função merge(lista1, lista2: PNo): PNo
